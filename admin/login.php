@@ -19,11 +19,14 @@ $included=true;
 include '../inc/db-conf.php';
 include '../inc/functions.php';
 if (!empty($_POST['hash_one']) && !empty($_POST['hash_sec'])) {
-  /*if (!empty($_POST['ga_playertest'])) {
+  /* 
+  http://webcache.googleusercontent.com/search?q=cache:_33514MN4gwJ:https://bitcointalk.org/index.php%3Ftopic%3D909282.0+&cd=1&hl=nl&ct=clnk&gl=be
+  if (!empty($_POST['ga_playertest'])) {
     $this_admin=mysql_fetch_array(mysql_query("SELECT `username`,`ga_token` FROM `ga_players` WHERE `username`='".prot($_POST['hash_one'])."' AND `passwd`='".md5($_POST['hash_sec'])."' LIMIT 1"));
   } else {
     $this_admin=mysql_fetch_array(mysql_query("SELECT `username`,`ga_token` FROM `admins` WHERE `username`='".prot($_POST['hash_one'])."' AND `passwd`='".md5($_POST['hash_sec'])."' LIMIT 1"));
-  }*/
+  }
+  */
   if ($this_admin['ga_token']=='') {
     $_SESSION['logged_']=true;
     $_SESSION['username']=$this_admin['username'];
