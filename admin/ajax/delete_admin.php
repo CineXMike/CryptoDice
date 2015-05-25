@@ -1,11 +1,7 @@
 <?php
 /*
- *  © CryptoDice 
- *  
- *  
- *    
+ *  CryptoDice
 */
-
 
 header('X-Frame-Options: DENY'); 
 
