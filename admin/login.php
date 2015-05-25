@@ -1,9 +1,6 @@
 <?php
 /*
- *  © CoinDice 
- *  Demo: http://www.btcircle.com/dice
- *  Please do not copy or redistribute.
- *  More licences we sell, more products we develop in the future.  
+ *  CryptoDice
 */
 
 
