@@ -1,9 +1,6 @@
 <?php
 /*
- *  © CryptoDice 
- *  
- *  
- *    
+ *  CryptoDice
 */
 
 // CRON must be running every minute!
