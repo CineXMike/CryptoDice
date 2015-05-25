@@ -29,7 +29,6 @@ class Google2FA {
 		"6" => 30,	"7" => 31
 	);
 	public static function generate_secret_key($length = 16) {
-		$b32 	= "234567QWERTYUIOPASDFGHJKLZXCVBNM";
 		$s 	= "";
 		for ($i = 0; $i < $length; $i++)
 			$s .= $b32[rand(0,31)];
