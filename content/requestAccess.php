@@ -1,9 +1,6 @@
 <?php
 /*
- *  © CryptoDice 
- *  
- *  
- *    
+ *  CryptoDice
 */
 
 $included=true;
