@@ -1,9 +1,6 @@
 <?php
 /*
- *  © CryptoDice 
- *  
- *  
- *    
+ *  CryptoDice
 */
 
 if (!isset($included)) exit();
